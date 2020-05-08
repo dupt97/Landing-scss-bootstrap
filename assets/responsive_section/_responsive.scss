@@ -37,7 +37,7 @@
     margin: 3% 0 20px 0;
   }
 
-  .main-btn {
+  .btn-success {
     margin-top: 2%;
   }
 
@@ -85,7 +85,7 @@
     }
   }
 
-  .screen-tablet {
+  .screen-tb-off {
     display: none;
   }
 
@@ -102,15 +102,12 @@
   }
 
   .quote-box-container {
-    display: flex;
-    flex-direction: column;
-
     p {
-      padding: 0 9%;
-      font-size: 110%;
-      font-family: "Roboto", sans-serif;
+      padding: 0 7%;
+      font-size: 100%;
+      font-family: $text_font;
       line-height: 35px;
-      margin-top: 0%;
+      margin-top: 7%;
     }
 
     i {
@@ -119,14 +116,14 @@
 
     .quote-start {
       text-align: left;
-      margin-left: 1%;
-      margin-top: 0%;
+      margin-left: 0;
+      margin-top: -9.3%;
     }
 
     .quote-end {
       text-align: right;
-      margin-right: 1%;
-      margin-top: -6%;
+      margin-right: 0;
+      margin-top: -7%;
     }
   }
 
@@ -175,6 +172,82 @@
       }
     }
   }
+
+  // Column Contents General 
+  .general-detail {
+    padding: 8% 1%;
+
+    .title-section-mini {
+      display: block;
+      text-align: center;
+      margin-bottom: 4%;
+    }
+
+    .title {
+      i {
+        font-size: 21px;
+      }
+      
+      span {
+        font-size: 35px;
+        color: #444444;
+        margin-left: 15px;
+        letter-spacing: 2px;
+      }
+    }
+    .quote-text {
+      margin-top: 2%;
+    }
+
+    .button-section-mini {
+      display: block;
+      text-align: center;
+      margin-top: 7%;
+      margin-bottom: 3%;
+    }
+    // start to convert
+    .img-general {
+      img {
+        max-width: 100%;
+        min-height: 315px;
+      }
+    }
+  
+    .text-general {
+      max-width: 100%;
+      height: 315px;
+
+      .title {
+        display: none;
+      }
+      .quote-text {
+        display: none;
+      }
+      .content-text {
+        font-size: 90%;
+        text-align: justify;
+        line-height: 26px;
+        margin-top: 0%;
+      }
+      .btn-useful {
+        display: none;
+      }
+    }
+  }
+
+  // Member and Customer Content General
+  .content-text {
+    margin-top: 0px;
+
+    .content-text-box {
+      margin-bottom: 7%;
+    }
+
+    .content-check-box {
+      line-height: 29px;
+      -webkit-line-clamp: 3;
+    }
+  }
 }
 
 @media only screen and (max-width: 767px){
@@ -182,7 +255,6 @@
   header {
   background-image: url('../assets/images/recbanner.jpg');
   height: 37vh;
-  @include mb-button;
   }
 
   .main-nav {
@@ -190,7 +262,7 @@
   
     a {
       font-size: 11px;
-      font-family: 'Roboto', sans-serif;
+      font-family: $text_font;
       font-weight: bold;
     }
   }
@@ -231,10 +303,8 @@
   .general-detail {
     padding: 10% 0;
 
-    .general-feature {
-      .screen-mobile {
-        display: none;
-      }
+    .screen-mobile {
+      display: none;
     }
 
     .general-mb-dot {
@@ -248,7 +318,7 @@
       .dot-light {
         height: 8px;
         width: 8px;
-        background-color: #ffffff;
+        background-color: $white_color;
         border-radius: 50%;
         display: inline-block;
         margin: 0 8px;
@@ -258,7 +328,7 @@
         height: 8px;
         width: 8px;
         border-radius: 50%;
-        border: 1px solid #ffffff;
+        border: 1px solid $white_color;
         display: inline-block;
         margin: 0 8px;
       }
@@ -277,34 +347,29 @@
     }
   }
 
-  .screen-mb {
+  .screen-mb-off {
     display: none;
-  }
-
-  .third-component {
-    margin-top: -2%;
   }
 
   .our-customer { 
     .quote-box-container {
-      padding: 0 3%;
+      padding: 7% 2%;
 
       p {
         padding: 0;
         font-size: 14px;
         line-height: 25px;
-        margin-top: 0%;
         margin: 3% 0 7% 0;
       }
 
       i {
-        font-size: 40px;
+        font-size: 50px;
       }
 
       .quote-start {
         text-align: left;
-        margin-left: 0%;
-        margin-top: 0%;
+        margin-left: 0;
+        margin-top: -13%;
       }
 
       .quote-end {
@@ -381,7 +446,7 @@
       font-size: 11px;
       text-align: right;
       padding-right: 0;
-      color: #d0d8dc;
+      color: $text_content_color;
       width: 73%;
 
       p {
@@ -399,5 +464,91 @@
         font-size: 11px;
       }
     }
+  }
+
+  // Column Content General
+  .general-detail {
+    padding: 8% 1%;
+
+    .title-section-mini {
+      display: block;
+      text-align: center;
+      margin-bottom: 5%;
+    }
+
+    .title {
+      i {
+        font-size: 21px;
+      }
+      
+      span {
+        font-size: 30px;
+        color: #444444;
+        margin-left: 15px;
+        letter-spacing: 2px;
+      }
+    }
+
+    .quote-text {
+      margin-top: 3%;
+      font-size: 11px;
+    }
+
+    .button-section-mini {
+      display: block;
+      text-align: center;
+      margin-top: 6%;
+      margin-bottom: 6%;
+    }
+
+    // start to convert
+    .img-general {
+      img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 4%;
+      }
+    }
+  
+    .text-general {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 4%;
+      
+      .title {
+        display: none;
+      }
+      .quote-text {
+        display: none;
+      }
+      .content-text {
+        font-size: 13px;
+        text-align: justify;
+        line-height: 20px;
+        margin-top: 0%;
+      }
+      .btn-useful {
+        display: none;
+      }
+    }
+  }
+
+  // Member and Customer Content General
+  .content-text {
+    margin-top: 0px;
+
+    .content-check-box {
+      line-height: 24px;
+      -webkit-line-clamp: 3;
+    }
+  }
+
+  // Button home
+  .btn-success {
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    padding: 8px 25px;
+    font-size: 15px;
   }
 }
