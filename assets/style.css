@@ -1,0 +1,2217 @@
+body {
+  background-color: #ffffff;
+  text-rendering: optimizeLegibility;
+  font-family: "Roboto Regular", arial;
+  color: #283238;
+  overflow-x: hidden;
+}
+body header {
+  background-image: url("../assets/images/banner.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+body header .main-btn {
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(to right, #429321, #b4ec51);
+  border-radius: 20px;
+  padding: 10px 34px;
+  text-transform: uppercase;
+  box-shadow: 1px 1px 2px 0px #666;
+}
+body .main-nav {
+  float: right;
+  list-style: none;
+  display: flex;
+  padding: 30px 15.5% 0 0;
+}
+body .main-nav li {
+  padding: 0 10px;
+}
+body .main-nav a {
+  color: #424949;
+  font-size: Roboto-Regular;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+body .main-nav .login-nav {
+  border: 2px solid #8bc34a;
+  border-radius: 20px;
+  padding: 8px 17px;
+  color: #8bc34a;
+}
+body .heading-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8%;
+}
+body img {
+  width: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body .row-promotion {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3%;
+  text-align: center;
+}
+body .promo .text-promo {
+  font-size: 20px;
+}
+body .icon-promo i {
+  font-size: 30px;
+}
+body .middle {
+  padding: 0 190px;
+}
+body .text-intro {
+  margin: 5% 0 3% 0;
+  font-size: 15px;
+}
+body .today {
+  box-shadow: 3px 3px 15px #D7DBDD;
+}
+body .today .main-btn {
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(to right, #429321, #b4ec51);
+  border-radius: 20px;
+  padding: 10px 34px;
+  text-transform: uppercase;
+  box-shadow: 1px 1px 2px 0px #666;
+}
+body .today .general-detail {
+  padding: 7% 15%;
+}
+body .today .general-detail .mb-tb-screen-open {
+  display: none;
+}
+body .today .general-detail .title-section-mini {
+  display: none;
+}
+body .today .general-detail .button-section-mini {
+  display: none;
+}
+body .today .img-general img {
+  width: 100%;
+  max-width: 100%;
+  min-height: 385px;
+}
+body .today .text-general {
+  max-width: 100%;
+  height: 325px;
+}
+body .today .title i {
+  font-size: 21px;
+}
+body .today .title span {
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #444444;
+  margin-left: 15px;
+  letter-spacing: 2px;
+}
+body .today .quote-text {
+  font-size: 14px;
+  margin-top: 4%;
+}
+body .today .content-text {
+  font-size: 14px;
+  text-align: justify;
+  line-height: 20px;
+  margin-top: 4%;
+}
+body .today .btn-useful .main-btn {
+  position: absolute;
+  bottom: 0;
+}
+@media only screen and (max-width: 1200px) {
+  body .today .general-detail {
+    padding: 8% 1%;
+  }
+  body .today .general-detail .title-section-mini {
+    display: block;
+    text-align: center;
+    margin-bottom: 4%;
+  }
+  body .today .general-detail .title i {
+    font-size: 21px;
+  }
+  body .today .general-detail .title span {
+    font-size: 35px;
+    color: #444444;
+    margin-left: 15px;
+    letter-spacing: 2px;
+  }
+  body .today .general-detail .quote-text {
+    margin-top: 2%;
+  }
+  body .today .general-detail .button-section-mini {
+    display: block;
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 3%;
+  }
+  body .today .general-detail .button-section-mini .main-btn {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, #429321, #b4ec51);
+    border-radius: 20px;
+    padding: 10px 34px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 2px 0px #666;
+  }
+  body .today .general-detail .img-general img {
+    max-width: 100%;
+    min-height: 315px;
+  }
+  body .today .general-detail .text-general {
+    max-width: 100%;
+    height: 315px;
+  }
+  body .today .general-detail .text-general .main-btn {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, #429321, #b4ec51);
+    border-radius: 20px;
+    padding: 10px 34px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 2px 0px #666;
+  }
+  body .today .general-detail .text-general .title {
+    display: none;
+  }
+  body .today .general-detail .text-general .quote-text {
+    display: none;
+  }
+  body .today .general-detail .text-general .content-text {
+    font-size: 90%;
+    text-align: justify;
+    line-height: 26px;
+    margin-top: 0%;
+  }
+  body .today .general-detail .text-general .btn-useful {
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  body .today .general-detail {
+    padding: 8% 1%;
+  }
+  body .today .general-detail .title-section-mini {
+    display: block;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  body .today .general-detail .title i {
+    font-size: 21px;
+  }
+  body .today .general-detail .title span {
+    font-size: 30px;
+    color: #444444;
+    margin-left: 15px;
+    letter-spacing: 2px;
+  }
+  body .today .general-detail .quote-text {
+    margin-top: 3%;
+    font-size: 11px;
+  }
+  body .today .general-detail .button-section-mini {
+    display: block;
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
+  }
+  body .today .general-detail .button-section-mini .main-btn {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, #429321, #b4ec51);
+    border-radius: 20px;
+    padding: 10px 34px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 2px 0px #666;
+  }
+  body .today .general-detail .img-general img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 4%;
+  }
+  body .today .general-detail .text-general {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 4%;
+  }
+  body .today .general-detail .text-general .main-btn {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, #429321, #b4ec51);
+    border-radius: 20px;
+    padding: 10px 34px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 2px 0px #666;
+  }
+  body .today .general-detail .text-general .title {
+    display: none;
+  }
+  body .today .general-detail .text-general .quote-text {
+    display: none;
+  }
+  body .today .general-detail .text-general .content-text {
+    font-size: 13px;
+    text-align: justify;
+    line-height: 20px;
+    margin-top: 0%;
+  }
+  body .today .general-detail .text-general .btn-useful {
+    display: none;
+  }
+}
+body .daily {
+  box-shadow: 3px 3px 15px #D7DBDD;
+}
+body .daily .main-btn {
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(to right, #429321, #b4ec51);
+  border-radius: 20px;
+  padding: 10px 34px;
+  text-transform: uppercase;
+  box-shadow: 1px 1px 2px 0px #666;
+}
+body .daily .general-detail {
+  padding: 7% 15%;
+}
+body .daily .general-detail .mb-tb-screen-open {
+  display: none;
+}
+body .daily .general-detail .title-section-mini {
+  display: none;
+}
+body .daily .general-detail .button-section-mini {
+  display: none;
+}
+body .daily .img-general img {
+  width: 100%;
+  max-width: 100%;
+  min-height: 385px;
+}
+body .daily .text-general {
+  max-width: 100%;
+  height: 325px;
+}
+body .daily .title i {
+  font-size: 21px;
+}
+body .daily .title span {
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #444444;
+  margin-left: 15px;
+  letter-spacing: 2px;
+}
+body .daily .quote-text {
+  font-size: 14px;
+  margin-top: 4%;
+}
+body .daily .content-text {
+  font-size: 14px;
+  text-align: justify;
+  line-height: 20px;
+  margin-top: 4%;
+}
+body .daily .btn-useful .main-btn {
+  position: absolute;
+  bottom: 0;
+}
+@media only screen and (max-width: 1200px) {
+  body .daily .general-detail {
+    padding: 8% 1%;
+  }
+  body .daily .general-detail .title-section-mini {
+    display: block;
+    text-align: center;
+    margin-bottom: 4%;
+  }
+  body .daily .general-detail .title i {
+    font-size: 21px;
+  }
+  body .daily .general-detail .title span {
+    font-size: 35px;
+    color: #444444;
+    margin-left: 15px;
+    letter-spacing: 2px;
+  }
+  body .daily .general-detail .quote-text {
+    margin-top: 2%;
+  }
+  body .daily .general-detail .button-section-mini {
+    display: block;
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 3%;
+  }
+  body .daily .general-detail .button-section-mini .main-btn {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, #429321, #b4ec51);
+    border-radius: 20px;
+    padding: 10px 34px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 2px 0px #666;
+  }
+  body .daily .general-detail .img-general img {
+    max-width: 100%;
+    min-height: 315px;
+  }
+  body .daily .general-detail .text-general {
+    max-width: 100%;
+    height: 315px;
+  }
+  body .daily .general-detail .text-general .main-btn {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, #429321, #b4ec51);
+    border-radius: 20px;
+    padding: 10px 34px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 2px 0px #666;
+  }
+  body .daily .general-detail .text-general .title {
+    display: none;
+  }
+  body .daily .general-detail .text-general .quote-text {
+    display: none;
+  }
+  body .daily .general-detail .text-general .content-text {
+    font-size: 90%;
+    text-align: justify;
+    line-height: 26px;
+    margin-top: 0%;
+  }
+  body .daily .general-detail .text-general .btn-useful {
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  body .daily .general-detail {
+    padding: 8% 1%;
+  }
+  body .daily .general-detail .title-section-mini {
+    display: block;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  body .daily .general-detail .title i {
+    font-size: 21px;
+  }
+  body .daily .general-detail .title span {
+    font-size: 30px;
+    color: #444444;
+    margin-left: 15px;
+    letter-spacing: 2px;
+  }
+  body .daily .general-detail .quote-text {
+    margin-top: 3%;
+    font-size: 11px;
+  }
+  body .daily .general-detail .button-section-mini {
+    display: block;
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
+  }
+  body .daily .general-detail .button-section-mini .main-btn {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, #429321, #b4ec51);
+    border-radius: 20px;
+    padding: 10px 34px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 2px 0px #666;
+  }
+  body .daily .general-detail .img-general img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 4%;
+  }
+  body .daily .general-detail .text-general {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 4%;
+  }
+  body .daily .general-detail .text-general .main-btn {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, #429321, #b4ec51);
+    border-radius: 20px;
+    padding: 10px 34px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 2px 0px #666;
+  }
+  body .daily .general-detail .text-general .title {
+    display: none;
+  }
+  body .daily .general-detail .text-general .quote-text {
+    display: none;
+  }
+  body .daily .general-detail .text-general .content-text {
+    font-size: 13px;
+    text-align: justify;
+    line-height: 20px;
+    margin-top: 0%;
+  }
+  body .daily .general-detail .text-general .btn-useful {
+    display: none;
+  }
+}
+body .feature {
+  background: linear-gradient(to right, #429321, #b4ec51);
+}
+body .feature .main-btn {
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(to right, #429321, #b4ec51);
+  border-radius: 20px;
+  padding: 10px 34px;
+  text-transform: uppercase;
+  box-shadow: 1px 1px 2px 0px #666;
+}
+body .feature .general-detail {
+  padding: 7% 15%;
+}
+body .feature .general-detail .mb-tb-screen-open {
+  display: none;
+}
+body .feature .general-detail .title-section-mini {
+  display: none;
+}
+body .feature .general-detail .button-section-mini {
+  display: none;
+}
+body .feature .img-general img {
+  width: 100%;
+  max-width: 100%;
+  min-height: 385px;
+}
+body .feature .text-general {
+  max-width: 100%;
+  height: 325px;
+}
+body .feature .title i {
+  font-size: 21px;
+}
+body .feature .title span {
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #444444;
+  margin-left: 15px;
+  letter-spacing: 2px;
+}
+body .feature .quote-text {
+  font-size: 14px;
+  margin-top: 4%;
+}
+body .feature .content-text {
+  font-size: 14px;
+  text-align: justify;
+  line-height: 20px;
+  margin-top: 4%;
+}
+body .feature .btn-useful .main-btn {
+  position: absolute;
+  bottom: 0;
+}
+@media only screen and (max-width: 1200px) {
+  body .feature .general-detail {
+    padding: 8% 1%;
+  }
+  body .feature .general-detail .title-section-mini {
+    display: block;
+    text-align: center;
+    margin-bottom: 4%;
+  }
+  body .feature .general-detail .title i {
+    font-size: 21px;
+  }
+  body .feature .general-detail .title span {
+    font-size: 35px;
+    color: #444444;
+    margin-left: 15px;
+    letter-spacing: 2px;
+  }
+  body .feature .general-detail .quote-text {
+    margin-top: 2%;
+  }
+  body .feature .general-detail .button-section-mini {
+    display: block;
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 3%;
+  }
+  body .feature .general-detail .button-section-mini .main-btn {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, #429321, #b4ec51);
+    border-radius: 20px;
+    padding: 10px 34px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 2px 0px #666;
+  }
+  body .feature .general-detail .img-general img {
+    max-width: 100%;
+    min-height: 315px;
+  }
+  body .feature .general-detail .text-general {
+    max-width: 100%;
+    height: 315px;
+  }
+  body .feature .general-detail .text-general .main-btn {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, #429321, #b4ec51);
+    border-radius: 20px;
+    padding: 10px 34px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 2px 0px #666;
+  }
+  body .feature .general-detail .text-general .title {
+    display: none;
+  }
+  body .feature .general-detail .text-general .quote-text {
+    display: none;
+  }
+  body .feature .general-detail .text-general .content-text {
+    font-size: 90%;
+    text-align: justify;
+    line-height: 26px;
+    margin-top: 0%;
+  }
+  body .feature .general-detail .text-general .btn-useful {
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  body .feature .general-detail {
+    padding: 8% 1%;
+  }
+  body .feature .general-detail .title-section-mini {
+    display: block;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  body .feature .general-detail .title i {
+    font-size: 21px;
+  }
+  body .feature .general-detail .title span {
+    font-size: 30px;
+    color: #444444;
+    margin-left: 15px;
+    letter-spacing: 2px;
+  }
+  body .feature .general-detail .quote-text {
+    margin-top: 3%;
+    font-size: 11px;
+  }
+  body .feature .general-detail .button-section-mini {
+    display: block;
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
+  }
+  body .feature .general-detail .button-section-mini .main-btn {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, #429321, #b4ec51);
+    border-radius: 20px;
+    padding: 10px 34px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 2px 0px #666;
+  }
+  body .feature .general-detail .img-general img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 4%;
+  }
+  body .feature .general-detail .text-general {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 4%;
+  }
+  body .feature .general-detail .text-general .main-btn {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, #429321, #b4ec51);
+    border-radius: 20px;
+    padding: 10px 34px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 2px 0px #666;
+  }
+  body .feature .general-detail .text-general .title {
+    display: none;
+  }
+  body .feature .general-detail .text-general .quote-text {
+    display: none;
+  }
+  body .feature .general-detail .text-general .content-text {
+    font-size: 13px;
+    text-align: justify;
+    line-height: 20px;
+    margin-top: 0%;
+  }
+  body .feature .general-detail .text-general .btn-useful {
+    display: none;
+  }
+}
+body .general-detail .general-feature {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+body .multi-row .circle .circle-icon {
+  border: 1px solid white;
+  border-width: 2px;
+  font-size: 27px;
+  color: white;
+  width: 86px;
+  height: 86px;
+  padding: 25px;
+  border-radius: 50%;
+}
+body .multi-row .circle .circle-number {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  padding: 5px;
+  background: #7cb342;
+  border: 2px solid white;
+  color: white;
+  text-align: center;
+  z-index: 1;
+  margin: -18px 0 0 25px;
+}
+body .multi-row .feature-text {
+  color: white;
+  margin-top: 10px;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+body .general-mb-dot {
+  display: none;
+}
+body .members {
+  box-shadow: 3px 3px 15px #D7DBDD;
+}
+body .members .main-btn {
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(to right, #429321, #b4ec51);
+  border-radius: 20px;
+  padding: 10px 34px;
+  text-transform: uppercase;
+  box-shadow: 1px 1px 2px 0px #666;
+}
+body .members .general-detail {
+  padding: 7% 15%;
+}
+body .members .general-detail .mb-tb-screen-open {
+  display: none;
+}
+body .members .general-detail .title-section-mini {
+  display: none;
+}
+body .members .general-detail .button-section-mini {
+  display: none;
+}
+body .members .img-general img {
+  width: 100%;
+  max-width: 100%;
+  min-height: 385px;
+}
+body .members .text-general {
+  max-width: 100%;
+  height: 325px;
+}
+body .members .title i {
+  font-size: 21px;
+}
+body .members .title span {
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #444444;
+  margin-left: 15px;
+  letter-spacing: 2px;
+}
+body .members .quote-text {
+  font-size: 14px;
+  margin-top: 4%;
+}
+body .members .content-text {
+  font-size: 14px;
+  text-align: justify;
+  line-height: 20px;
+  margin-top: 4%;
+}
+body .members .btn-useful .main-btn {
+  position: absolute;
+  bottom: 0;
+}
+@media only screen and (max-width: 1200px) {
+  body .members .general-detail {
+    padding: 8% 1%;
+  }
+  body .members .general-detail .title-section-mini {
+    display: block;
+    text-align: center;
+    margin-bottom: 4%;
+  }
+  body .members .general-detail .title i {
+    font-size: 21px;
+  }
+  body .members .general-detail .title span {
+    font-size: 35px;
+    color: #444444;
+    margin-left: 15px;
+    letter-spacing: 2px;
+  }
+  body .members .general-detail .quote-text {
+    margin-top: 2%;
+  }
+  body .members .general-detail .button-section-mini {
+    display: block;
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 3%;
+  }
+  body .members .general-detail .button-section-mini .main-btn {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, #429321, #b4ec51);
+    border-radius: 20px;
+    padding: 10px 34px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 2px 0px #666;
+  }
+  body .members .general-detail .img-general img {
+    max-width: 100%;
+    min-height: 315px;
+  }
+  body .members .general-detail .text-general {
+    max-width: 100%;
+    height: 315px;
+  }
+  body .members .general-detail .text-general .main-btn {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, #429321, #b4ec51);
+    border-radius: 20px;
+    padding: 10px 34px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 2px 0px #666;
+  }
+  body .members .general-detail .text-general .title {
+    display: none;
+  }
+  body .members .general-detail .text-general .quote-text {
+    display: none;
+  }
+  body .members .general-detail .text-general .content-text {
+    font-size: 90%;
+    text-align: justify;
+    line-height: 26px;
+    margin-top: 0%;
+  }
+  body .members .general-detail .text-general .btn-useful {
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  body .members .general-detail {
+    padding: 8% 1%;
+  }
+  body .members .general-detail .title-section-mini {
+    display: block;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  body .members .general-detail .title i {
+    font-size: 21px;
+  }
+  body .members .general-detail .title span {
+    font-size: 30px;
+    color: #444444;
+    margin-left: 15px;
+    letter-spacing: 2px;
+  }
+  body .members .general-detail .quote-text {
+    margin-top: 3%;
+    font-size: 11px;
+  }
+  body .members .general-detail .button-section-mini {
+    display: block;
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
+  }
+  body .members .general-detail .button-section-mini .main-btn {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, #429321, #b4ec51);
+    border-radius: 20px;
+    padding: 10px 34px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 2px 0px #666;
+  }
+  body .members .general-detail .img-general img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 4%;
+  }
+  body .members .general-detail .text-general {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 4%;
+  }
+  body .members .general-detail .text-general .main-btn {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, #429321, #b4ec51);
+    border-radius: 20px;
+    padding: 10px 34px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 2px 0px #666;
+  }
+  body .members .general-detail .text-general .title {
+    display: none;
+  }
+  body .members .general-detail .text-general .quote-text {
+    display: none;
+  }
+  body .members .general-detail .text-general .content-text {
+    font-size: 13px;
+    text-align: justify;
+    line-height: 20px;
+    margin-top: 0%;
+  }
+  body .members .general-detail .text-general .btn-useful {
+    display: none;
+  }
+}
+body .members .content-text {
+  margin-top: 27px;
+}
+body .members .content-text .content-text-box {
+  display: flex;
+  margin-bottom: 10px;
+}
+body .members .content-text .content-text-box .check-icon {
+  font-size: 12px;
+  color: #8bc34a;
+}
+body .members .content-text .content-check-box {
+  margin-left: 13px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 20px;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+body .members .content-text .between {
+  margin: 5% 0;
+}
+body .members .quote-text {
+  margin-top: 15px;
+}
+@media only screen and (max-width: 1200px) {
+  body .members .content-text {
+    margin-top: 0px;
+  }
+  body .members .content-text .content-text-box {
+    margin-bottom: 7%;
+  }
+  body .members .content-text .content-check-box {
+    line-height: 29px;
+    -webkit-line-clamp: 3;
+  }
+}
+@media only screen and (max-width: 767px) {
+  body .members .content-text {
+    margin-top: 0px;
+  }
+  body .members .content-text .content-check-box {
+    line-height: 24px;
+    -webkit-line-clamp: 3;
+  }
+}
+body .customer {
+  box-shadow: -3px -3px 10px 0px #D7DBDD;
+}
+body .customer .main-btn {
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(to right, #429321, #b4ec51);
+  border-radius: 20px;
+  padding: 10px 34px;
+  text-transform: uppercase;
+  box-shadow: 1px 1px 2px 0px #666;
+}
+body .customer .general-detail {
+  padding: 7% 15%;
+}
+body .customer .general-detail .mb-tb-screen-open {
+  display: none;
+}
+body .customer .general-detail .title-section-mini {
+  display: none;
+}
+body .customer .general-detail .button-section-mini {
+  display: none;
+}
+body .customer .img-general img {
+  width: 100%;
+  max-width: 100%;
+  min-height: 385px;
+}
+body .customer .text-general {
+  max-width: 100%;
+  height: 325px;
+}
+body .customer .title i {
+  font-size: 21px;
+}
+body .customer .title span {
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #444444;
+  margin-left: 15px;
+  letter-spacing: 2px;
+}
+body .customer .quote-text {
+  font-size: 14px;
+  margin-top: 4%;
+}
+body .customer .content-text {
+  font-size: 14px;
+  text-align: justify;
+  line-height: 20px;
+  margin-top: 4%;
+}
+body .customer .btn-useful .main-btn {
+  position: absolute;
+  bottom: 0;
+}
+@media only screen and (max-width: 1200px) {
+  body .customer .general-detail {
+    padding: 8% 1%;
+  }
+  body .customer .general-detail .title-section-mini {
+    display: block;
+    text-align: center;
+    margin-bottom: 4%;
+  }
+  body .customer .general-detail .title i {
+    font-size: 21px;
+  }
+  body .customer .general-detail .title span {
+    font-size: 35px;
+    color: #444444;
+    margin-left: 15px;
+    letter-spacing: 2px;
+  }
+  body .customer .general-detail .quote-text {
+    margin-top: 2%;
+  }
+  body .customer .general-detail .button-section-mini {
+    display: block;
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 3%;
+  }
+  body .customer .general-detail .button-section-mini .main-btn {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, #429321, #b4ec51);
+    border-radius: 20px;
+    padding: 10px 34px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 2px 0px #666;
+  }
+  body .customer .general-detail .img-general img {
+    max-width: 100%;
+    min-height: 315px;
+  }
+  body .customer .general-detail .text-general {
+    max-width: 100%;
+    height: 315px;
+  }
+  body .customer .general-detail .text-general .main-btn {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, #429321, #b4ec51);
+    border-radius: 20px;
+    padding: 10px 34px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 2px 0px #666;
+  }
+  body .customer .general-detail .text-general .title {
+    display: none;
+  }
+  body .customer .general-detail .text-general .quote-text {
+    display: none;
+  }
+  body .customer .general-detail .text-general .content-text {
+    font-size: 90%;
+    text-align: justify;
+    line-height: 26px;
+    margin-top: 0%;
+  }
+  body .customer .general-detail .text-general .btn-useful {
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  body .customer .general-detail {
+    padding: 8% 1%;
+  }
+  body .customer .general-detail .title-section-mini {
+    display: block;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  body .customer .general-detail .title i {
+    font-size: 21px;
+  }
+  body .customer .general-detail .title span {
+    font-size: 30px;
+    color: #444444;
+    margin-left: 15px;
+    letter-spacing: 2px;
+  }
+  body .customer .general-detail .quote-text {
+    margin-top: 3%;
+    font-size: 11px;
+  }
+  body .customer .general-detail .button-section-mini {
+    display: block;
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
+  }
+  body .customer .general-detail .button-section-mini .main-btn {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, #429321, #b4ec51);
+    border-radius: 20px;
+    padding: 10px 34px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 2px 0px #666;
+  }
+  body .customer .general-detail .img-general img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 4%;
+  }
+  body .customer .general-detail .text-general {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 4%;
+  }
+  body .customer .general-detail .text-general .main-btn {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, #429321, #b4ec51);
+    border-radius: 20px;
+    padding: 10px 34px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 2px 0px #666;
+  }
+  body .customer .general-detail .text-general .title {
+    display: none;
+  }
+  body .customer .general-detail .text-general .quote-text {
+    display: none;
+  }
+  body .customer .general-detail .text-general .content-text {
+    font-size: 13px;
+    text-align: justify;
+    line-height: 20px;
+    margin-top: 0%;
+  }
+  body .customer .general-detail .text-general .btn-useful {
+    display: none;
+  }
+}
+body .customer .content-text {
+  margin-top: 27px;
+}
+body .customer .content-text .content-text-box {
+  display: flex;
+  margin-bottom: 10px;
+}
+body .customer .content-text .content-text-box .check-icon {
+  font-size: 12px;
+  color: #8bc34a;
+}
+body .customer .content-text .content-check-box {
+  margin-left: 13px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 20px;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+body .customer .content-text .between {
+  margin: 5% 0;
+}
+body .customer .quote-text {
+  margin-top: 15px;
+}
+@media only screen and (max-width: 1200px) {
+  body .customer .content-text {
+    margin-top: 0px;
+  }
+  body .customer .content-text .content-text-box {
+    margin-bottom: 7%;
+  }
+  body .customer .content-text .content-check-box {
+    line-height: 29px;
+    -webkit-line-clamp: 3;
+  }
+}
+@media only screen and (max-width: 767px) {
+  body .customer .content-text {
+    margin-top: 0px;
+  }
+  body .customer .content-text .content-check-box {
+    line-height: 24px;
+    -webkit-line-clamp: 3;
+  }
+}
+body .our-customer {
+  background-image: url("../assets/images/rectangle3.png");
+}
+body .our-customer .main-btn {
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(to right, #429321, #b4ec51);
+  border-radius: 20px;
+  padding: 10px 34px;
+  text-transform: uppercase;
+  box-shadow: 1px 1px 2px 0px #666;
+}
+body .our-customer .general-detail {
+  padding: 7% 15%;
+}
+body .our-customer .general-detail .mb-tb-screen-open {
+  display: none;
+}
+body .our-customer .general-detail .title-section-mini {
+  display: none;
+}
+body .our-customer .general-detail .button-section-mini {
+  display: none;
+}
+body .our-customer .img-general img {
+  width: 100%;
+  max-width: 100%;
+  min-height: 385px;
+}
+body .our-customer .text-general {
+  max-width: 100%;
+  height: 325px;
+}
+body .our-customer .title i {
+  font-size: 21px;
+}
+body .our-customer .title span {
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #444444;
+  margin-left: 15px;
+  letter-spacing: 2px;
+}
+body .our-customer .quote-text {
+  font-size: 14px;
+  margin-top: 4%;
+}
+body .our-customer .content-text {
+  font-size: 14px;
+  text-align: justify;
+  line-height: 20px;
+  margin-top: 4%;
+}
+body .our-customer .btn-useful .main-btn {
+  position: absolute;
+  bottom: 0;
+}
+@media only screen and (max-width: 1200px) {
+  body .our-customer .general-detail {
+    padding: 8% 1%;
+  }
+  body .our-customer .general-detail .title-section-mini {
+    display: block;
+    text-align: center;
+    margin-bottom: 4%;
+  }
+  body .our-customer .general-detail .title i {
+    font-size: 21px;
+  }
+  body .our-customer .general-detail .title span {
+    font-size: 35px;
+    color: #444444;
+    margin-left: 15px;
+    letter-spacing: 2px;
+  }
+  body .our-customer .general-detail .quote-text {
+    margin-top: 2%;
+  }
+  body .our-customer .general-detail .button-section-mini {
+    display: block;
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 3%;
+  }
+  body .our-customer .general-detail .button-section-mini .main-btn {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, #429321, #b4ec51);
+    border-radius: 20px;
+    padding: 10px 34px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 2px 0px #666;
+  }
+  body .our-customer .general-detail .img-general img {
+    max-width: 100%;
+    min-height: 315px;
+  }
+  body .our-customer .general-detail .text-general {
+    max-width: 100%;
+    height: 315px;
+  }
+  body .our-customer .general-detail .text-general .main-btn {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, #429321, #b4ec51);
+    border-radius: 20px;
+    padding: 10px 34px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 2px 0px #666;
+  }
+  body .our-customer .general-detail .text-general .title {
+    display: none;
+  }
+  body .our-customer .general-detail .text-general .quote-text {
+    display: none;
+  }
+  body .our-customer .general-detail .text-general .content-text {
+    font-size: 90%;
+    text-align: justify;
+    line-height: 26px;
+    margin-top: 0%;
+  }
+  body .our-customer .general-detail .text-general .btn-useful {
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  body .our-customer .general-detail {
+    padding: 8% 1%;
+  }
+  body .our-customer .general-detail .title-section-mini {
+    display: block;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  body .our-customer .general-detail .title i {
+    font-size: 21px;
+  }
+  body .our-customer .general-detail .title span {
+    font-size: 30px;
+    color: #444444;
+    margin-left: 15px;
+    letter-spacing: 2px;
+  }
+  body .our-customer .general-detail .quote-text {
+    margin-top: 3%;
+    font-size: 11px;
+  }
+  body .our-customer .general-detail .button-section-mini {
+    display: block;
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
+  }
+  body .our-customer .general-detail .button-section-mini .main-btn {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, #429321, #b4ec51);
+    border-radius: 20px;
+    padding: 10px 34px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 2px 0px #666;
+  }
+  body .our-customer .general-detail .img-general img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 4%;
+  }
+  body .our-customer .general-detail .text-general {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 4%;
+  }
+  body .our-customer .general-detail .text-general .main-btn {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, #429321, #b4ec51);
+    border-radius: 20px;
+    padding: 10px 34px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 2px 0px #666;
+  }
+  body .our-customer .general-detail .text-general .title {
+    display: none;
+  }
+  body .our-customer .general-detail .text-general .quote-text {
+    display: none;
+  }
+  body .our-customer .general-detail .text-general .content-text {
+    font-size: 13px;
+    text-align: justify;
+    line-height: 20px;
+    margin-top: 0%;
+  }
+  body .our-customer .general-detail .text-general .btn-useful {
+    display: none;
+  }
+}
+body .our-customer .general-detail {
+  padding: 3% 15%;
+}
+body .tiltle-our-customer {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+}
+body .avatar-slide {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+body .avatar-customer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+body .avatar-customer .img-avatar img {
+  width: 73%;
+}
+body .avatar-content {
+  color: #d0d8dc;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  margin-top: 15%;
+}
+body .avatar-content .position-user {
+  font-size: 10px;
+}
+body .avatar-content .first-name {
+  display: none;
+  color: white;
+}
+body .avatar-content .last-name {
+  display: none;
+  color: white;
+}
+body .avatar-content .full-name {
+  color: white;
+}
+body .third-component {
+  margin-top: -1%;
+}
+body .third-component .img-avatar img {
+  width: 90%;
+}
+body .dot-slide {
+  text-align: center;
+  margin-top: 1%;
+}
+body .dot-slide .dot-light {
+  height: 10px;
+  width: 10px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0px 8px;
+}
+body .dot-slide .dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  margin: 0px 8px;
+}
+body .quote-box-container p {
+  padding: 0 17%;
+  text-align: justify;
+  font-size: 15px;
+  line-height: 28px;
+  margin-top: 5%;
+  color: #d0d8dc;
+}
+body .quote-box-container i {
+  font-size: 50px;
+  color: #d0d8dc;
+}
+body .quote-box-container .quote-start {
+  float: left;
+  margin-left: 9%;
+  margin-top: -3%;
+}
+body .quote-box-container .quote-end {
+  float: right;
+  margin-right: 9%;
+  margin-top: -4%;
+}
+body .project .main-btn {
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(to right, #429321, #b4ec51);
+  border-radius: 20px;
+  padding: 10px 34px;
+  text-transform: uppercase;
+  box-shadow: 1px 1px 2px 0px #666;
+}
+body .project .general-detail {
+  padding: 7% 15%;
+}
+body .project .general-detail .mb-tb-screen-open {
+  display: none;
+}
+body .project .general-detail .title-section-mini {
+  display: none;
+}
+body .project .general-detail .button-section-mini {
+  display: none;
+}
+body .project .img-general img {
+  width: 100%;
+  max-width: 100%;
+  min-height: 385px;
+}
+body .project .text-general {
+  max-width: 100%;
+  height: 325px;
+}
+body .project .title i {
+  font-size: 21px;
+}
+body .project .title span {
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #444444;
+  margin-left: 15px;
+  letter-spacing: 2px;
+}
+body .project .quote-text {
+  font-size: 14px;
+  margin-top: 4%;
+}
+body .project .content-text {
+  font-size: 14px;
+  text-align: justify;
+  line-height: 20px;
+  margin-top: 4%;
+}
+body .project .btn-useful .main-btn {
+  position: absolute;
+  bottom: 0;
+}
+@media only screen and (max-width: 1200px) {
+  body .project .general-detail {
+    padding: 8% 1%;
+  }
+  body .project .general-detail .title-section-mini {
+    display: block;
+    text-align: center;
+    margin-bottom: 4%;
+  }
+  body .project .general-detail .title i {
+    font-size: 21px;
+  }
+  body .project .general-detail .title span {
+    font-size: 35px;
+    color: #444444;
+    margin-left: 15px;
+    letter-spacing: 2px;
+  }
+  body .project .general-detail .quote-text {
+    margin-top: 2%;
+  }
+  body .project .general-detail .button-section-mini {
+    display: block;
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 3%;
+  }
+  body .project .general-detail .button-section-mini .main-btn {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, #429321, #b4ec51);
+    border-radius: 20px;
+    padding: 10px 34px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 2px 0px #666;
+  }
+  body .project .general-detail .img-general img {
+    max-width: 100%;
+    min-height: 315px;
+  }
+  body .project .general-detail .text-general {
+    max-width: 100%;
+    height: 315px;
+  }
+  body .project .general-detail .text-general .main-btn {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, #429321, #b4ec51);
+    border-radius: 20px;
+    padding: 10px 34px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 2px 0px #666;
+  }
+  body .project .general-detail .text-general .title {
+    display: none;
+  }
+  body .project .general-detail .text-general .quote-text {
+    display: none;
+  }
+  body .project .general-detail .text-general .content-text {
+    font-size: 90%;
+    text-align: justify;
+    line-height: 26px;
+    margin-top: 0%;
+  }
+  body .project .general-detail .text-general .btn-useful {
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  body .project .general-detail {
+    padding: 8% 1%;
+  }
+  body .project .general-detail .title-section-mini {
+    display: block;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  body .project .general-detail .title i {
+    font-size: 21px;
+  }
+  body .project .general-detail .title span {
+    font-size: 30px;
+    color: #444444;
+    margin-left: 15px;
+    letter-spacing: 2px;
+  }
+  body .project .general-detail .quote-text {
+    margin-top: 3%;
+    font-size: 11px;
+  }
+  body .project .general-detail .button-section-mini {
+    display: block;
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
+  }
+  body .project .general-detail .button-section-mini .main-btn {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, #429321, #b4ec51);
+    border-radius: 20px;
+    padding: 10px 34px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 2px 0px #666;
+  }
+  body .project .general-detail .img-general img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 4%;
+  }
+  body .project .general-detail .text-general {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 4%;
+  }
+  body .project .general-detail .text-general .main-btn {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, #429321, #b4ec51);
+    border-radius: 20px;
+    padding: 10px 34px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 2px 0px #666;
+  }
+  body .project .general-detail .text-general .title {
+    display: none;
+  }
+  body .project .general-detail .text-general .quote-text {
+    display: none;
+  }
+  body .project .general-detail .text-general .content-text {
+    font-size: 13px;
+    text-align: justify;
+    line-height: 20px;
+    margin-top: 0%;
+  }
+  body .project .general-detail .text-general .btn-useful {
+    display: none;
+  }
+}
+body .project .general-detail .tb-screen-open {
+  display: none;
+}
+body .project .general-detail .tb-screen-close {
+  display: block;
+}
+body footer {
+  background-color: #39474e;
+  font-family: "Roboto", sans-serif;
+}
+body footer .main-btn {
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(to right, #429321, #b4ec51);
+  border-radius: 20px;
+  padding: 10px 34px;
+  text-transform: uppercase;
+  box-shadow: 1px 1px 2px 0px #666;
+}
+body footer .general-detail {
+  padding: 7% 15%;
+}
+body footer .general-detail .mb-tb-screen-open {
+  display: none;
+}
+body footer .general-detail .title-section-mini {
+  display: none;
+}
+body footer .general-detail .button-section-mini {
+  display: none;
+}
+body footer .img-general img {
+  width: 100%;
+  max-width: 100%;
+  min-height: 385px;
+}
+body footer .text-general {
+  max-width: 100%;
+  height: 325px;
+}
+body footer .title i {
+  font-size: 21px;
+}
+body footer .title span {
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #444444;
+  margin-left: 15px;
+  letter-spacing: 2px;
+}
+body footer .quote-text {
+  font-size: 14px;
+  margin-top: 4%;
+}
+body footer .content-text {
+  font-size: 14px;
+  text-align: justify;
+  line-height: 20px;
+  margin-top: 4%;
+}
+body footer .btn-useful .main-btn {
+  position: absolute;
+  bottom: 0;
+}
+@media only screen and (max-width: 1200px) {
+  body footer .general-detail {
+    padding: 8% 1%;
+  }
+  body footer .general-detail .title-section-mini {
+    display: block;
+    text-align: center;
+    margin-bottom: 4%;
+  }
+  body footer .general-detail .title i {
+    font-size: 21px;
+  }
+  body footer .general-detail .title span {
+    font-size: 35px;
+    color: #444444;
+    margin-left: 15px;
+    letter-spacing: 2px;
+  }
+  body footer .general-detail .quote-text {
+    margin-top: 2%;
+  }
+  body footer .general-detail .button-section-mini {
+    display: block;
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 3%;
+  }
+  body footer .general-detail .button-section-mini .main-btn {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, #429321, #b4ec51);
+    border-radius: 20px;
+    padding: 10px 34px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 2px 0px #666;
+  }
+  body footer .general-detail .img-general img {
+    max-width: 100%;
+    min-height: 315px;
+  }
+  body footer .general-detail .text-general {
+    max-width: 100%;
+    height: 315px;
+  }
+  body footer .general-detail .text-general .main-btn {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, #429321, #b4ec51);
+    border-radius: 20px;
+    padding: 10px 34px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 2px 0px #666;
+  }
+  body footer .general-detail .text-general .title {
+    display: none;
+  }
+  body footer .general-detail .text-general .quote-text {
+    display: none;
+  }
+  body footer .general-detail .text-general .content-text {
+    font-size: 90%;
+    text-align: justify;
+    line-height: 26px;
+    margin-top: 0%;
+  }
+  body footer .general-detail .text-general .btn-useful {
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  body footer .general-detail {
+    padding: 8% 1%;
+  }
+  body footer .general-detail .title-section-mini {
+    display: block;
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  body footer .general-detail .title i {
+    font-size: 21px;
+  }
+  body footer .general-detail .title span {
+    font-size: 30px;
+    color: #444444;
+    margin-left: 15px;
+    letter-spacing: 2px;
+  }
+  body footer .general-detail .quote-text {
+    margin-top: 3%;
+    font-size: 11px;
+  }
+  body footer .general-detail .button-section-mini {
+    display: block;
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
+  }
+  body footer .general-detail .button-section-mini .main-btn {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, #429321, #b4ec51);
+    border-radius: 20px;
+    padding: 10px 34px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 2px 0px #666;
+  }
+  body footer .general-detail .img-general img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 4%;
+  }
+  body footer .general-detail .text-general {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 4%;
+  }
+  body footer .general-detail .text-general .main-btn {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right, #429321, #b4ec51);
+    border-radius: 20px;
+    padding: 10px 34px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 2px 0px #666;
+  }
+  body footer .general-detail .text-general .title {
+    display: none;
+  }
+  body footer .general-detail .text-general .quote-text {
+    display: none;
+  }
+  body footer .general-detail .text-general .content-text {
+    font-size: 13px;
+    text-align: justify;
+    line-height: 20px;
+    margin-top: 0%;
+  }
+  body footer .general-detail .text-general .btn-useful {
+    display: none;
+  }
+}
+body .general-detail .img-footer img {
+  margin-left: 0;
+  width: 85%;
+}
+body .general-detail .copyright-footer {
+  position: absolute;
+  margin-left: 0;
+  bottom: 2%;
+}
+body .general-detail .copyright-footer .copy-right {
+  color: #d0d8dc;
+  font-size: 77%;
+}
+body .general-detail .title-footer {
+  text-transform: uppercase;
+  margin-bottom: 57%;
+  color: #8bc34a;
+  font-size: 15px;
+  margin-top: 5%;
+  font-weight: 600;
+}
+body .general-detail .select-footer {
+  position: absolute;
+  margin-left: 0;
+  bottom: 0;
+}
+body .general-detail .select-footer a {
+  width: 100%;
+  color: #d0d8dc;
+  font-size: 77%;
+  line-height: 20px;
+  text-decoration: none;
+}
+body .general-detail .social-icon {
+  color: #8bc34a;
+  padding-top: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body .general-detail .copyright-extra {
+  display: none;
+}
+@media only screen and (max-width: 1200px) {
+  body header {
+    background-image: url("../assets/images/recbanner.jpg");
+    height: 45vh;
+  }
+  body .main-nav {
+    padding: 30px 4% 0 0;
+  }
+  body .heading-box {
+    margin-top: 4%;
+  }
+  body img {
+    width: 18%;
+  }
+  body .row-promotion {
+    margin-top: 6%;
+  }
+  body .text-promo {
+    font-size: 25px;
+  }
+  body .icon-promo {
+    font-size: 25px;
+  }
+  body .middle {
+    padding: 0 90px;
+  }
+  body .text-intro {
+    margin: 3% 0 20px 0;
+  }
+  body .main-btn {
+    margin-top: 2%;
+  }
+  body .our-customer .general-detail {
+    padding: 7% 0;
+  }
+  body .tiltle-our-customer {
+    font-size: 30px;
+  }
+  body .avatar-slide {
+    margin-top: 6%;
+  }
+  body .avatar-customer .img-avatar img {
+    width: 83%;
+  }
+  body .avatar-content {
+    font-size: 14px;
+    margin-top: 15%;
+  }
+  body .avatar-content .position-user {
+    font-size: 11px;
+  }
+  body .avatar-content .first-name {
+    display: block;
+  }
+  body .avatar-content .last-name {
+    display: block;
+  }
+  body .avatar-content .full-name {
+    display: none;
+  }
+  body .screen-tablet {
+    display: none;
+  }
+  body .third-component .img-avatar img {
+    width: 100%;
+  }
+  body .dot-slide {
+    margin-top: 3%;
+  }
+  body .quote-box-container {
+    display: flex;
+    flex-direction: column;
+  }
+  body .quote-box-container p {
+    padding: 0 9%;
+    font-size: 110%;
+    font-family: "Roboto", sans-serif;
+    line-height: 35px;
+    margin-top: 0%;
+  }
+  body .quote-box-container i {
+    font-size: 60px;
+  }
+  body .quote-box-container .quote-start {
+    text-align: left;
+    margin-left: 1%;
+    margin-top: 0%;
+  }
+  body .quote-box-container .quote-end {
+    text-align: right;
+    margin-right: 1%;
+    margin-top: -6%;
+  }
+  body .project .general-detail .tb-screen-open {
+    display: block;
+  }
+  body .project .general-detail .tb-screen-close {
+    display: none;
+  }
+  body .general-detail .img-footer img {
+    width: 95%;
+  }
+  body .general-detail .copyright-footer .copy-right {
+    font-size: 12px;
+  }
+  body .general-detail .title-footer {
+    font-size: 12px;
+    margin-bottom: 77%;
+  }
+  body .general-detail .select-footer a {
+    font-size: 12px;
+  }
+  body .general-detail .social-icon {
+    padding-top: 80%;
+  }
+  body .general-detail .social-icon i {
+    font-size: 77%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  body header {
+    background-image: url("../assets/images/recbanner.jpg");
+    height: 37vh;
+  }
+  body header .main-btn {
+    padding: 8px 28px;
+    font-size: 13px;
+  }
+  body .main-nav {
+    padding: 4% 4% 0 0;
+  }
+  body .main-nav a {
+    font-size: 11px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+  }
+  body .heading-box {
+    margin-top: 3px;
+    margin-left: 10px;
+  }
+  body img {
+    width: 25%;
+  }
+  body .row-promotion {
+    margin-top: 3%;
+  }
+  body .text-promo {
+    font-size: 1px;
+  }
+  body .icon-promo i {
+    font-size: 20px;
+  }
+  body .text-intro {
+    margin: 4% 0 2% 0;
+    font-size: 8px;
+  }
+  body .middle {
+    padding: 0 70px;
+  }
+  body .general-detail {
+    padding: 10% 0;
+  }
+  body .general-detail .general-feature .screen-mobile {
+    display: none;
+  }
+  body .general-detail .general-mb-dot {
+    display: block;
+  }
+  body .general-detail .dot-slide {
+    text-align: center;
+    margin-top: 5%;
+  }
+  body .general-detail .dot-slide .dot-light {
+    height: 8px;
+    width: 8px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 8px;
+  }
+  body .general-detail .dot-slide .dot {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    display: inline-block;
+    margin: 0 8px;
+  }
+  body .customer {
+    display: none;
+  }
+  body .our-customer .avatar-slide {
+    margin-top: 10%;
+  }
+  body .screen-mb {
+    display: none;
+  }
+  body .third-component {
+    margin-top: -2%;
+  }
+  body .our-customer .quote-box-container {
+    padding: 0 3%;
+  }
+  body .our-customer .quote-box-container p {
+    padding: 0;
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 0%;
+    margin: 3% 0 7% 0;
+  }
+  body .our-customer .quote-box-container i {
+    font-size: 40px;
+  }
+  body .our-customer .quote-box-container .quote-start {
+    text-align: left;
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+  body .our-customer .quote-box-container .quote-end {
+    text-align: right;
+    margin-right: 0%;
+  }
+  body .our-customer .dot-slide {
+    margin: 5% 0 3% 0;
+  }
+  body .our-customer .dot-slide .dot-light {
+    height: 10px;
+    width: 10px;
+  }
+  body .our-customer .dot-slide .dot {
+    height: 10px;
+    width: 10px;
+  }
+  body .project .general-detail .tb-screen-open {
+    display: none;
+  }
+  body .project .general-detail .tb-screen-close {
+    display: block;
+  }
+  body .project .general-detail .img-general img {
+    margin-bottom: 0%;
+  }
+  body footer .general-detail .img-footer {
+    margin-bottom: 7%;
+    max-width: 20%;
+  }
+  body footer .general-detail span {
+    font-size: 10px;
+  }
+  body footer .general-detail .copyright-footer {
+    display: none;
+  }
+  body footer .general-detail .title-footer {
+    font-size: 9.5px;
+    margin-bottom: 90%;
+  }
+  body footer .general-detail .social-footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 7%;
+  }
+  body .general-detail .copyright-extra {
+    display: block;
+    font-size: 11px;
+    text-align: right;
+    padding-right: 0;
+    color: #d0d8dc;
+    width: 73%;
+  }
+  body .general-detail .copyright-extra p {
+    margin-right: -4px;
+  }
+  body .general-detail .social-icon {
+    padding-top: 0;
+    padding-left: 0;
+    margin-left: -2px;
+    width: 27%;
+  }
+  body .general-detail .social-icon i {
+    font-size: 11px;
+  }
+}
