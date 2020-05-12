@@ -120,7 +120,7 @@ body {
     img {
       width: 100%;
       max-width: 100%;
-      min-height: 385px;
+      min-height: 390px;
     }
   }
 
@@ -131,29 +131,29 @@ body {
 
   .title {
     i {
-      font-size: 21px;
+      font-size: 33px;
     }
     span {
-      font-size: 30px;
+      font-size: 50px;
       font-family: $text_font;
-      font-weight: 500;
+      font-weight: 300;
       color: #444444;
       margin-left: 15px;
       letter-spacing: 2px;
     }
   }
 
-  .quote-text {
-    font-size: 14px;
-    margin-top: 3%;
-  }
-
   .text-general {
+    .quote-text {
+      font-size: 14px;
+      margin-top: 1%;
+    }
+
     .content-text {
       font-size: 14px;
       text-align: justify;
       line-height: 26px;
-      margin-top: 3.5%;
+      margin-top: 3%;
     }
   }
 
@@ -442,6 +442,7 @@ body {
       color: $green_color;
       position: absolute;
       bottom: 0;
+      right: 9%;
       font-size: 14px;
     }
   

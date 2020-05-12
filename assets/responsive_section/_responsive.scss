@@ -37,9 +37,9 @@
 
   // Home Button General
   .btn-success {
-    padding: 11px 25px;
+    padding: 13px 33px;
     border: 0;
-    font-size: 14px;
+    font-size: 15px;
     letter-spacing: 1px;
   }
 
@@ -55,11 +55,11 @@
 
     .title {
       i {
-        font-size: 21px;
+        font-size: 32px;
       }
       
       span {
-        font-size: 35px;
+        font-size: 45px;
         color: #444444;
         margin-left: 15px;
         letter-spacing: 2px;
@@ -111,6 +111,11 @@
 
     .content-text-box {
       margin-bottom: 5%;
+
+      .check-icon {
+        font-size: 20px;
+        margin-top: 2%;
+      }
     }
 
     .content-check-box {
@@ -239,19 +244,21 @@
     }
 
     .title-footer {
-      font-size: 11px;
-      margin-bottom: 77%;
+      font-size: 11.5px;
+      margin-bottom: 70%;
     }
 
     .select-footer {
       a {
-        font-size: 11px;
+        font-size: 10px;
       }
     }
 
     .social-icon {
+      left: 0;
+
       i {
-        font-size: 70%;
+        font-size: 90%;
       }
     }
   }
@@ -336,6 +343,12 @@
         color: #444444;
         margin-left: 15px;
         letter-spacing: 2px;
+      }
+    }
+
+    .img-general {
+      img {
+        min-height: 270px;
       }
     }
 

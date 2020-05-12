@@ -93,32 +93,32 @@ body .general-detail .button-section-mini {
 body .img-general img {
   width: 100%;
   max-width: 100%;
-  min-height: 385px;
+  min-height: 390px;
 }
 body .text-general {
   max-width: 100%;
   height: 325px;
 }
 body .title i {
-  font-size: 21px;
+  font-size: 33px;
 }
 body .title span {
-  font-size: 30px;
+  font-size: 50px;
   font-family: "Roboto", sans-serif;
-  font-weight: 500;
+  font-weight: 300;
   color: #444444;
   margin-left: 15px;
   letter-spacing: 2px;
 }
-body .quote-text {
+body .text-general .quote-text {
   font-size: 14px;
-  margin-top: 3%;
+  margin-top: 1%;
 }
 body .text-general .content-text {
   font-size: 14px;
   text-align: justify;
   line-height: 26px;
-  margin-top: 3.5%;
+  margin-top: 3%;
 }
 body .btn-useful .btn-success {
   position: absolute;
@@ -333,6 +333,7 @@ body .general-detail .social-icon {
   color: #8bc34a;
   position: absolute;
   bottom: 0;
+  right: 9%;
   font-size: 14px;
 }
 body .general-detail .copyright-extra {
@@ -366,9 +367,9 @@ body ::-webkit-scrollbar-thumb {
     font-size: 15px;
   }
   body .btn-success {
-    padding: 11px 25px;
+    padding: 13px 33px;
     border: 0;
-    font-size: 14px;
+    font-size: 15px;
     letter-spacing: 1px;
   }
   body .general-detail {
@@ -380,10 +381,10 @@ body ::-webkit-scrollbar-thumb {
     margin-bottom: 4%;
   }
   body .general-detail .title i {
-    font-size: 21px;
+    font-size: 32px;
   }
   body .general-detail .title span {
-    font-size: 35px;
+    font-size: 45px;
     color: #444444;
     margin-left: 15px;
     letter-spacing: 2px;
@@ -425,6 +426,10 @@ body ::-webkit-scrollbar-thumb {
   }
   body .content-text .content-text-box {
     margin-bottom: 5%;
+  }
+  body .content-text .content-text-box .check-icon {
+    font-size: 20px;
+    margin-top: 2%;
   }
   body .content-text .content-check-box {
     line-height: 29px;
@@ -503,14 +508,17 @@ body ::-webkit-scrollbar-thumb {
     font-size: 11px;
   }
   body .general-detail .title-footer {
-    font-size: 11px;
-    margin-bottom: 77%;
+    font-size: 11.5px;
+    margin-bottom: 70%;
   }
   body .general-detail .select-footer a {
-    font-size: 11px;
+    font-size: 10px;
+  }
+  body .general-detail .social-icon {
+    left: 0;
   }
   body .general-detail .social-icon i {
-    font-size: 70%;
+    font-size: 90%;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -569,6 +577,9 @@ body ::-webkit-scrollbar-thumb {
     color: #444444;
     margin-left: 15px;
     letter-spacing: 2px;
+  }
+  body .general-detail .img-general img {
+    min-height: 270px;
   }
   body .general-detail .quote-text {
     margin-top: 3%;
